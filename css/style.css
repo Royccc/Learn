@@ -251,7 +251,7 @@ nav li:hover .subnav{
 } 大小不固定的图片垂直居中，宽度失效*/
 .part span{
 	position: absolute;
-	top: -20%;
+	top: -20px;
 }
 .part-bg{
 	position: absolute;
@@ -284,25 +284,26 @@ nav li:hover .subnav{
 	width: 500px;
 	float: left;
 	margin-right: 56px;
+	margin-bottom: 20px;
 	background-color: #DDDDDD;
 }
 .blog2{
-	margin-right: 0;;
+	margin-right: 0;
 }
 
 .blog li{
 	float: left;
 }
 .list-left{
-	/*position:absolute;*/
-	float: left;
+	position:absolute;
+/* 	float: left; */
 }
 .list-right{
-	/*position: relative;
+	position: relative;
 	left: 70px;
-	top: 5px; */
-	float: left;
-	width: 400px;
+	top: 5px;
+/* 	float: left; */
+	width: 80%;
 	line-height: 20px;
 }
 .list-left img{
