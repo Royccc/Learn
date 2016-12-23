@@ -296,13 +296,22 @@ nav li:hover .subnav{
 }
 .list-left{
 	position:absolute;
+<<<<<<< HEAD
 	/*float: left;*/
+=======
+/* 	float: left; */
+>>>>>>> 3bb3edba32c186993e600f960169c3ca590bb06a
 }
 .list-right{
 	position: relative;
 	left: 70px;
+<<<<<<< HEAD
 	top: 5px; 
 	/*float: left;*/
+=======
+	top: 5px;
+/* 	float: left; */
+>>>>>>> 3bb3edba32c186993e600f960169c3ca590bb06a
 	width: 80%;
 	line-height: 20px;
 }
