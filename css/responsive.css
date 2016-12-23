@@ -3,78 +3,35 @@
 @media screen and (max-width: 1140px){
 	.wrap{
 	width:960px;
-	height: inherit;
-	margin: 0 auto;
 	}
 	.part{
 	width: 288px;
-	margin:20px 48px 20px 0;
-	float: left;
 	}
-	.part3{
-	margin-right:0;
-}
 	.blog{
-	height: 100px;
 	width: 452px;
-	float: left;
-	margin-right: 56px;
-	background-color: #DDDDDD;
 	}
-	.blog2{
-	margin-right: 0;
-}
-	
 }
 
 @media screen and (max-width: 984px){
-	.part{
-	width: 224px;
-	margin:20px 48px 20px 0;
-	float: left;
-	}
-	.part3{
-	margin-right:0;
-}
-	.blog{
-	height: 100px;
-	width: 356px;
-	float: left;
-	margin-right: 56px;
-	background-color: #DDDDDD;
-	}
-	.blog2{
-	margin-right: 0;;
-}
 	.wrap{
 	width:768px;
-	height: inherit;
-	margin: 0 auto;
 	}
-}
-@media screen and (max-width: 792px){
 	.part{
-	width: 126px;
-	margin:20px 48px 20px 0;
-	float: left;
+	width: 224px;
 	}
-	.part3{
-	margin-right:0;
-}
 	.blog{
-	height: 100px;
-	width: 217px;
-	float: left;
-	margin-right: 56px;
-	background-color: #DDDDDD;
+	width: 356px;
 	}
-	.blog2{
-	margin-right: 0;;
 }
+@media screen and (max-width: 600px){
 	.wrap{
 	width:480px;
-	height: inherit;
-	margin: 0 auto;
+	}
+	.part{
+	width: 480px;
+	}
+	.blog{
+	width: 480px;
 	}
 }
 /*@media screen and (max-width: 504px){
