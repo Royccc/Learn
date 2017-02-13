@@ -1,0 +1,460 @@
+#site-nav{
+	height: 30px;line-height: 30px;
+	background-color: #f1f1f1;
+}
+.site-nav-send,.site-nav-r .fore{
+	padding: 0 25px 0 10px; 
+	position: relative;
+}
+.site-nav-send:hover{
+	background-color: pink;
+}
+.site-nav-send i,.fore i{
+	position: absolute;
+	top:12px;
+	right:5px;
+	width: 15px;height: 7px;
+	font: 200 14px/14px "宋体";
+	overflow: hidden;
+}
+.site-nav-send i s,.fore s{
+	position: absolute;
+	top:-6px;
+}
+.site-nav-r ul li{
+	float: left;
+	padding: 0 10px;
+}
+.site-nav-r .line{
+	width: 1px;
+	height: 12px;
+	background-color: #ddd;
+	margin-top:10px; 
+	padding:0;
+}
+/*---------phone start--------*/
+.site-nav-r .jd-phone{
+	padding-left: 25px;
+}
+.site-nav-r span{
+	background: url(../image/tel.png);
+	position: absolute;
+	width: 16px;height: 20px;
+	top: 5px;
+	left: 7px;
+}
+.site-nav-r span:hover{
+	background-position: 0 -25px;
+}
+/*--------------------site-nav end------------------------------*/
+
+.topbanner{
+	width: 100%;
+	height: 80px;
+	background-color: #8a26c6;
+}
+.tp{
+	position: relative;
+}
+.topbanner-close{
+	position: absolute;	
+	width: 19px;height: 19px;
+	top:5px;right: 5px;
+	background:url(../image/close.png);
+}
+.topbanner-close:hover{
+	background-position: 0 19px; 
+   /*-------bottom也可以，直接以y轴的bottom*/
+}
+/*-----------------广告 end---------------------------------*/
+.search{
+	height: 55px;
+	padding: 25px 0 20px 0;
+}
+.logo{
+	width: 360px;
+	position: relative;
+}
+.logo1{
+	width: 270px;height: 60px;
+	display:block;
+	background: url(../image/logo.png) no-repeat;
+	text-indent: -9999px;
+}
+.logo2{
+	position: absolute;
+    top: -16px;
+    right: 12px;
+}
+.search-mid{width: 590px;height: 60px;}
+.search-top{height: 40px;}
+
+.search-top input,.search-top button{
+	float: left;
+}
+.search-top input{
+	width: 441px;
+	height: 32px;
+	border: 2px solid #b61d1d;
+	padding-left: 10px;
+	font:14px/32px "microsoft yahei";
+}
+.search-top button{
+	width: 80px;height: 36px;
+	background-color: #b61d1d;
+	font-size: 18px ; 
+	font-family: "微软雅黑";
+	color: #fff;
+	cursor: pointer;/*模拟鼠标，变成小手*/
+}
+.search-bottom li{
+	float: left;
+	padding-right:10px;
+}
+.shop{
+	width: 140px;
+	height: 34px;line-height: 34px;
+	border: 1px solid #dfdfdf;
+	margin-left: 55px;	
+	text-align: center;
+	position: relative;
+}
+.shop-logo{
+	left: 15px;
+	top:2px;
+	height: 20px;width: 16px;
+	position:absolute;
+	background:url(../image/tel.png); 
+	background-position: 0 50px;
+}
+.shop-tangle i{
+    right: 19px;
+    top: 11px;
+	height: 15px;width: 7px;
+	font: 200 14px/14px "宋体";
+	overflow: hidden;
+	position: absolute;
+}
+.shop-tangle i s{
+	position: absolute;
+	left:-8px;
+}
+/*-------------------搜索框 end-------------------------------*/
+/*-------------------footer start------------------------*/
+.last{
+	height: 500px;}
+.icon{
+	height: 96px;
+	padding-left: 15px;
+	background-color: #f5f5f5;
+	margin-bottom: 14px; 
+	background-color: yellow;
+}
+.icon-img i{
+	float: left;
+	line-height: 96px;
+	width: 300px;
+	display: inline-block;
+}
+/*-------icon------*/
+.last-nav{
+	height: 190px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 15px;
+}
+.last-nav-title{
+	height: 36px;line-height: 36px;
+}
+.last-nav-title li{
+	float: left;
+	width: 200px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.last-nav-title .last-nav-title5{width: 100px;}
+.last-nav-title .last-nav-title5 li{width: 100px;}
+.last-nav-title .last-nav-title6{
+	width: 210px;height: 180px;
+	padding-left: 20px;
+	margin-left: 80px;
+	background:url(../image/china.png)left bottom no-repeat;
+}
+.last-nav-title6-con{
+	width: 183px;
+	margin-top: 10px;
+}
+.last-nav-list li,.last-nav-title6-con{
+	font-size:12px;
+	font-family: "宋体";
+	height: 20px;line-height: 20px;	
+	margin: 0;
+}
+/*---------页尾导航--------*/
+footer{
+	margin-top:15px;
+	height: 180px;
+}
+
+
+.footer-nav{
+	height: 14px;
+	padding:10px 128px;
+}
+.footer-nav ul{
+	height: 14px;
+	font-size: 12px;
+}
+.footer-nav li{
+	float: left;
+	padding: 0 11px;
+}
+.footer-nav .line{
+	width: 1px;height: 12px;
+	background-color: #956695;
+	padding:0;
+	margin-top:3px; 
+}
+/*--------------------*/
+.copyright{
+	height: 155px;
+}
+.copyright p{
+	text-align: center;
+}
+.copyright-img{
+	height: 32px;
+	margin-top:10px; 
+	text-align: center;
+} 
+/*-----------------------footer end----------------------*/
+.sort{
+	font-family:"微软雅黑";}
+.sort-line{
+	height:43px;
+	border-bottom: 2px solid #b1191a;}
+.kuang{
+	width:210px;
+	height:513px;	
+	position: relative;
+	zoom:1;
+	color:#fff;
+	background-color:#c81623;
+}
+.all{	
+	line-height:44px;	
+	font-size:16px;
+	background-color:#b1191a;
+	padding-left:10px;
+	cursor: pointer;}
+.kuang a{
+	color:#fff;}
+.hang{
+    line-height:43px;	
+	font-size:16px;}	
+.hang li{
+	float:left;
+	padding:0 20px;}
+/*----------------------------------*/
+.lie{
+	height: 450px;
+	font-size: 14px;
+	margin-top: 2px;
+	border-left: 1px solid #b1191a;
+	background-color: #c81623;
+}
+.lie-1{
+	height: 31px;
+	padding: 0 10px;
+}
+.lie-1 h1{
+	float: left;	
+	line-height: 31px;
+}
+.lie-1 i{
+	float: right;
+	line-height: 31px;
+	font-family:consolas;
+}
+.lie-1:hover .lie2,.lie-1:hover{
+	background-color: yellow;
+	display: block;
+}
+/*.lie-1:hover span{
+	background-color: #fff;
+	display: inline-block;
+	z-index: 20;
+	width: 20px;height: 30px;
+	top:0;right:0;
+	position: relative;
+}                京东是用小三角的变化遮住线的，不会  */
+/*列的一级导航*/
+.lie2{
+	display: none;
+	width: 1000px;
+	left: 209px;top:44px;
+	position: absolute;
+	padding: 20px 0;
+	border:1px solid #b1191a;
+	z-index: 2;
+	background-color:yellow;
+}
+.lie2-left{
+	width: 765px;
+	margin-left:25px;
+	background-color: pink;
+	float: left;
+}
+.lie2-right{
+	width: 170px;
+	margin:0 20px;
+	background-color:blue;
+	float: left;
+}
+/*-----------------------商品分类导航 end-----------------------*/
+
+.content{
+	height: 468px;
+	width:100%;
+	margin-bottom: 10px;
+	background:url(../image/banner.jpg) top center no-repeat;}
+.content-mid{
+	width:730px;
+	height:455px;
+	margin:12px 260px 0 0;
+	position: relative; }
+.circle{
+	position: absolute;
+	bottom: 8px;
+    left: 50%;
+    margin-left: -66px;
+}
+.circle li{
+	float: left;
+	width: 20px;height: 20px;
+	text-align: center;
+	margin: 2px;
+	border-radius: 20px;
+	color:#fff;
+	background-color: #3e3e3e;
+}
+.circle li:hover{
+	background-color: #c81623;
+}
+.arrow{
+	display: none;
+}
+.arrow-left,.arrow-right{
+	position: absolute;
+	width: 28px;height: 62px;
+	top:50%;
+	margin-top: -31px;
+	text-align: center;
+	font:400 22px/62px "simsun";
+	color: #fff;	
+	background:rgba(0,0,0,0.3);
+}
+.arrow a:hover{
+	color: #fff;
+	background:rgba(0,0,0,0.6);
+}
+.arrow-left{left: 0;}
+.arrow-right{right: 0;}
+
+/*---------内容页背景和轮播图 end------------*/
+.content .w{
+	position: relative;}
+.content-right{
+	width:246px;
+	height: 453px;
+	position: absolute;
+	right: 1px;
+}
+.content-right-top{
+	height: 373px;
+	margin-top: 12px;
+	border: 1px solid #e4e4e4;
+	overflow: hidden;
+}
+.news{
+	height:162px;
+	text-indent: 16px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.news-title{
+	height: 34px;line-height: 34px;
+	border-bottom: 1px dotted #e4e4e4;
+	position: relative;
+}
+.news-title span{
+	width: 180px;
+	margin-top: 2px;
+	font-size: 16px;
+}
+.news-title i{
+	right: 14px;
+    top: 10px;
+	position: absolute;
+    font: 400 9px/14px consolas;
+}
+.news-content{
+	margin:6px 0;
+}
+.news-content li{
+	height: 24px;
+	line-height: 24px;
+}
+/*----------京东快报-----------*/
+.life-serve{
+	height: 210px;width: 260px;
+}
+.life-serve-list li{
+	float: left;
+	height: 69px;width: 61px;
+	border-bottom: 1px solid #e4e4e4;
+	border-right: 1px solid #e4e4e4;
+	position: relative;	
+
+}
+.life-serve-list li a{
+	display: block;
+	width: 61px;height: 22px;
+	padding-top: 48px;
+	text-align:center;
+}
+.life-serve-list li i{
+	position: absolute;
+	width: 25px;height: 26px;
+	overflow: hidden;
+	top:14px;left: 18px;
+	background:url(../image/hua.png) left top no-repeat;
+}
+.life-serve-list .hua i{background-position: 0 0px;}
+.life-serve-list .ji i{background-position: 0 -25px;}
+.life-serve-list .dian i{background-position: 0 -50px;}
+.life-serve-list .you i{background-position: 0 -75px;}
+.life-serve-list .cai i{background-position: 0 -100px;}
+.life-serve-list .jia i{background-position: 0 -125px;}
+.life-serve-list .jiu i{background-position: 0 -150px;}
+.life-serve-list .huo i{background-position: 0 -175px;}
+.life-serve-list .zhong i{background-position: 0 -200px;}
+.life-serve-list .licai i{background-position: 0 -225px;}
+.life-serve-list .lipin i{background-position: 0 -250px;}
+.life-serve-list .bai i{background-position: 0 -275px;}
+
+/*--------生活方式---------*/
+.content-right-pic{
+	height: 76px;
+	margin-top:5px;
+	background:url(../image/page-bottom.jpg);
+}
+/*-----------------content-right end----------------------*/
+.today{
+}
+.today-pic{
+	width: 210px;
+	height: 150px;
+	background:url(../image/today.png) right bottom no-repeat;
+}
+.today-list i{
+	float: left;
+}
