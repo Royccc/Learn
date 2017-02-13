@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>百度换肤</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				background: url(http://image.tianjimedia.com/uploadImages/2012/013/0C4PQ1XX78O3.jpg) top center no-repeat;
+				width: 1440px;
+				/*height: 100%;*/
+			}
+			
+			.box {
+				height: 150px;
+				background: rgba(255, 255, 255, .3);
+				text-align: center;
+				padding-top: 50px;
+			}
+			
+			.box img {
+				cursor: pointer;
+			}
+			
+			button {
+				background-color: peachpuff;
+				padding: 5px;
+			}
+		</style>
+		<script>
+			window.onload = function() {
+				var pic1 = document.getElementById("pic1");
+				var pic2 = document.getElementById("pic2");
+				var pic3 = document.getElementById("pic3");
+				pic1.onclick = function() {
+					document.body.style.background = "url(http://image.tianjimedia.com/uploadImages/2012/013/0C4PQ1XX78O3.jpg) top center";
+				}
+				pic2.onclick = function() {
+					document.body.style.background = "url(http://www.deskcar.com/desktop/cartoon/china/20121222213913/4.jpg) top center";
+				}
+				pic3.onclick = function() {
+					document.body.style.background = "url(http://img.article.pchome.net/00/53/34/15/pic_lib/wm/4.jpg) top center";
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<button onclick="https://royccc.github.io/Learn/滚动效果1.html">间歇滚动</button>
+		<button onclick="https://royccc.github.io/Learn/滚动效果2.html">无缝滚动</button>
+		<button onclick="https://royccc.github.io/Learn/滚动效果3.html">文字滚动</button>
+		<button onclick="https://royccc.github.io/Learn/隔行变色.html">隔行变色</button>
+		<button onclick="https://royccc.github.io/Learn/换肤.html">换肤</button>
+		<div class="box">
+			<img src="http://image.tianjimedia.com/uploadImages/2012/013/0C4PQ1XX78O3.jpg" alt="1" width="150px" id="pic1" />
+			<img src="http://www.deskcar.com/desktop/cartoon/china/20121222213913/4.jpg" alt="2" width="150px" id="pic2" />
+			<img src="http://img.article.pchome.net/00/53/34/15/pic_lib/wm/4.jpg" alt="3" width="150px" id="pic3" />
+		</div>
+
+	</body>
+
+</html>

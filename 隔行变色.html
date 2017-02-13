@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.box {
+				width: 300px;
+			}
+			
+			li {
+				line-height: 30px;
+				list-style-type: none;
+				background: #FFFFFF;
+			}
+			
+			li span {
+				margin: 5px;
+			}
+			
+			.current {
+				background-color: #aaa!important;
+			}
+			
+			button {
+				background-color: peachpuff;
+				padding: 5px;
+			}
+		</style>
+		<script>
+			window.onload = function() {
+				var lis = document.getElementsByTagName('li');
+				for(var i = 0; i <= lis.length; i++) {
+					if(i % 2 == 0) {
+						lis[i].style.background = "#EEEEEE";
+					} else {
+						lis[i].style.background = "#DDDDDD";
+					}
+					lis[i].onmouseover = function() {
+						this.className = "current";
+					}
+					lis[i].onmouseout = function() {
+						this.className = "";
+					}
+				}
+			}
+		</script>
+
+	</head>
+
+	<body>
+		<button onclick="https://royccc.github.io/Learn/滚动效果1.html">间歇滚动</button>
+		<button onclick="https://royccc.github.io/Learn/滚动效果2.html">无缝滚动</button>
+		<button onclick="https://royccc.github.io/Learn/滚动效果3.html">文字滚动</button>
+		<button onclick="https://royccc.github.io/Learn/隔行变色.html">隔行变色</button>
+		<button onclick="https://royccc.github.io/Learn/换肤.html">换肤</button>
+		<div class="box">
+			<ul>
+				<li>
+					<span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+				</li>
+				<li>
+					<span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+				</li>
+				<li>
+					<span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+				</li>
+				<li>
+					<span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+				</li>
+				<li>
+					<span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+				</li>
+				<li>
+					<span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+				</li>
+				<li>
+					<span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+				</li>
+				<li>
+					<span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+				</li>
+				<li>
+					<span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+				</li>
+				<li>
+					<span>上证指数</span><span>3641</span><span>10-5</span><span>0.16%</span>
+				</li>
+			</ul>
+		</div>
+	</body>
+
+</html>

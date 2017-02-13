@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>文字滚动</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.box {
+				width: 500px;
+				border: 3px solid #ccc;
+				margin: 50px auto 0;
+				padding: 10px;
+			}
+			button{
+				background-color: peachpuff;
+				padding: 5px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<button onclick="https://royccc.github.io/Learn/滚动效果1.html">间歇滚动</button>
+		<button onclick="https://royccc.github.io/Learn/滚动效果2.html">无缝滚动</button>
+		<button onclick="https://royccc.github.io/Learn/滚动效果3.html">文字滚动</button>
+		<button onclick="https://royccc.github.io/Learn/隔行变色.html">隔行变色</button>
+		<button onclick="https://royccc.github.io/Learn/换肤.html">换肤</button>
+	
+		<div class="box">
+			<div class="roll">
+				<p>
+					<marquee style="background-color: pink;" scrolldelay="400">滚动的文字.......</marquee>
+				</p>
+				<p style="height: 200px;background-color: coral;">
+					<marquee style="margin-left:40px ;" direction="up">滚动的文字.......</marquee>
+				</p>
+				<p style="background-color: cadetblue;">
+					<marquee behavior="alternate" loop="2">滚动的文字.......</marquee>
+				</p>
+			</div>
+		</div>
+	</body>
+
+</html>

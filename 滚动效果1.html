@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+
+		<title>间歇滚动</title>
+		<style>
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			body {
+				font-size: 12px;
+				line-height: 24px;
+			}
+			
+			ul {
+				list-style: none;
+			}
+			
+			a {
+				color: #333;
+				text-decoration: none;
+			}
+			
+			a img {
+				border: none;
+			}
+			
+			a:hover {
+				color: #ff0000;
+			}
+			
+			#mooc {
+				height: 200px;
+				width: 400px;
+				margin: 50px auto;
+				/*padding: 0 20px;*/
+				border: 5px solid #333333;
+				border-radius: 20px;
+				overflow: hidden;
+				position: relative;
+			}
+			
+			#moocTitle {
+				height: 60px;
+				line-height: 60px;
+				background-color: #E92B00;
+				font-size: 25px;
+				text-indent: 30px;
+				color: #fff;
+			}
+			
+			#moocTitle a {
+				font-size: 12px;
+				position: absolute;
+				right: 10px;
+				top: 10px;
+				color: #FFFFFF;
+			}
+			
+			#moocBox {
+				width: 330px;
+				height: 140px;
+				margin: 10px 30px 0;
+				/*上右左下*/
+				background-color: pink;
+				overflow: hidden;
+			}
+			
+			#moocBox span {
+				float: right;
+			}
+			
+			button {
+				background-color: peachpuff;
+				padding: 5px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<button onclick="https://royccc.github.io/Learn/滚动效果1.html">间歇滚动</button>
+		<button onclick="https://royccc.github.io/Learn/滚动效果2.html">无缝滚动</button>
+		<button onclick="https://royccc.github.io/Learn/滚动效果3.html">文字滚动</button>
+		<button onclick="https://royccc.github.io/Learn/隔行变色.html">隔行变色</button>
+		<button onclick="https://royccc.github.io/Learn/换肤.html">换肤</button>
+		<!--  慕课网课程公告开始 -->
+		<div id="mooc">
+			<!--  头部 -->
+			<div id="moocTitle">慕课网最新课程
+				<a href="#">更多>></a>
+			</div>
+			<!--  头部结束 -->
+			<!--  中间 -->
+			<div id="moocBox">
+				<ul id="con1">
+					<li>
+						<a href="#">1.学会html5 绝对的屌丝逆袭（案例）</a><span>2013-09-18</span></li>
+					<li>
+						<a href="#">2.tab页面切换效果（案例）</a><span>2013-10-09</span></li>
+					<li>
+						<a href="#">3.圆角水晶按钮制作（案例）</a><span>2013-10-21</span></li>
+					<li>
+						<a href="#">4.HTML+CSS基础课程(系列)</a><span>2013-11-01</span></li>
+					<li>
+						<a href="#">5.分页页码制作（案例）</a><span>2013-11-06</span></li>
+					<li>
+						<a href="#">6.导航条菜单的制作（案例）</a><span>2013-11-08</span></li>
+					<li>
+						<a href="#">7.信息列表制作(案例)</a><span>2013-11-15</span></li>
+					<li>
+						<a href="#">8.下拉菜单制作(案例)</a><span>2013-11-22</span></li>
+					<li>
+						<a href="#">9.如何实现“新手引导”效果</a><span>2013-12-06</span></li>
+				</ul>
+			</div>
+			<!--  中间结束 -->
+			<!--  底部 -->
+			<div id="moocBot"> </div>
+			<!--  底部结束 -->
+		</div>
+		<!--  慕课网课程公告结束 -->
+
+		<script type="text/javascript">
+			var box = document.getElementById('moocBox');
+			var con1 = document.getElementById('con1');
+			con1.innerHTML += con1.innerHTML;
+			var speed = 30;
+			var delay = 2000;
+			var timer;
+
+			function startScroll() {
+				timer = setInterval(scrollUp, speed);
+				box.scrollTop++;
+			}
+
+			function scrollUp() {
+				if(box.scrollTop % 24 == 0) { //停顿
+					clearInterval(timer);
+					timer = setTimeout(startScroll, delay);
+				} else {
+					box.scrollTop++;
+					if(box.scrollTop > con1.offsetHeight / 2) {
+						box.scrollTop = 0;
+					}
+				}
+			}
+			setTimeout(startScroll, delay);
+		</script>
+	</body>
+
+</html>
